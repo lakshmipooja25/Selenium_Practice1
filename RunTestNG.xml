@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MavenSuite" >
+
+ <test name="MavenTest">
+	<parameter name="laksh" value="123"/>
+	<parameter name="laksh1" value="123456"/>
+	<parameter name="laksh2" value="123789"/>
+ 
+ <classes>
+
+ <class name="Practice_lex" />
+
+ </classes>
+
+ </test>
+
+
+</suite>
